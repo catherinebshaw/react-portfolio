@@ -1,10 +1,11 @@
-import { useState } from "react"
+import React from "react"
 import "./style.css"
-import  headshot from "../images/headshot.png";
+import headshot from "../../assets/headshot.png"
+
 
 function ThumbnailImage(){
     return (
-        <img src={headshot} alt="headshot" />
+        <img src={headshot} alt="headshot" className="float-start" />
     )
 }
 

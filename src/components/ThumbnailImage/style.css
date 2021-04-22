@@ -3,6 +3,18 @@ img {
     height: auto;
     float: left;
     margin: 15px;
+    padding-right: 5px;
     
 }
+#image{
+    width: 350px;
 
+}
+
+#icon {
+
+    width: 40px;
+    height: auto;
+    color: teal;
+    
+}

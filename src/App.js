@@ -6,18 +6,20 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-import dots from './components/images/dots.jpg'
+import "./App.css";
+import dots from "./assets/dots.jpg"
+
 
 
 function App() {
   return (
     <Router>
-      <div style={{backgroundImage: `url(${dots})`}}>
+      <div className="body" style={{backgroundImage: `url(${dots})`}}>
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/portolio" component={Portfolio} />
+          <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />

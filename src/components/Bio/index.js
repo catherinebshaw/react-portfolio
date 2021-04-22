@@ -1,5 +1,6 @@
 import React from 'react';
 import { useContext } from "react";
+import "./style.css"
 import ProfileContext from "../../utils/ProfileContext";
 
 function Bio(){
@@ -7,9 +8,8 @@ function Bio(){
 
     return (
         <>
-            <div class="card-body">
-            <h5 class="card-title"></h5>
-            <p class="card-text">{info}</p>
+            <div className="card-body">
+            <p className="card-text">{info}</p>
             </div>     
         </>
     )

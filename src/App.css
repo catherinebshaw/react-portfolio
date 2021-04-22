@@ -12,7 +12,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+#About{
+width: 90%;
+margin: 30px;
+background-color:white;
+border: solid teal 1px;
+border-radius: 5px;
+padding: 20px;
 
+}
 .App-header {
   background-color:teal;
   min-height: 100vh;
@@ -37,10 +45,32 @@
   }
 }
 
-.container {
-  margin-top: 30px
-}
 
 body{
-  background-image: src("./");
+  font-size: 16pt;
 }
+
+.container{
+  background: white;
+  margin-top: 30px;
+  border: solid 1px teal;
+  border-radius: 5px;
+  padding: 25px;
+}
+ul {
+  border: none;
+  padding-bottom: 30px;
+
+}
+#icon {
+  size: 70px;
+
+}
+#contactDetails{
+  border: none;
+}
+
+#Image {
+  position: relative;
+}
+
